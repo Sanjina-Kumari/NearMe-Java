@@ -32,8 +32,9 @@ Think of it as a **mini clone of Google Maps search**, but coded in Java.
 
 ---
 
-## 📸 Screenshots
-*(Add program output screenshots or lab instructions here)*
+## App Overview
+
+
 
 ---
 
