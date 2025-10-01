@@ -32,69 +32,56 @@ NearMe-Java is a Java console application that helps users find the **nearest Po
 
   1. Clone the project:
 
-```bash
-git clone https://github.com/Sanjina-Kumari/NearMe-Java.git
-Open the project in IntelliJ IDEA (or any Java IDE).
 
-Compile the project (if needed):
+  git clone https://github.com/Sanjina-Kumari/NearMe-Java.git
+  2. Open the project in IntelliJ IDEA (or any Java IDE).
 
-bash
-Copy code
-javac src/*.java
-Run the main program:
+  3. Compile the project (if needed):
+  javac src/*.java
 
-bash
-Copy code
-java src/PoiFinder
-Follow the prompts:
+  4. Run the main program:
+  java src/PoiFinder
 
-Enter your location (latitude,longitude) or press Enter to use the default PLU campus.
+  5. Follow the prompts:
+  Enter your location (latitude,longitude) or press Enter to use the default PLU campus.
+  Enter a search term (e.g., "sushi", "entertainment").
+  View the closest match (or matches if using the radius extension).
 
-Enter a search term (e.g., "sushi", "entertainment").
+## Rules for POI Search
+ - Matches are case-insensitive.
+ - Search matches name or tags of the POI.
+ - If multiple matches exist, the program returns the closest match.
+ - If no match is found, an appropriate message is displayed.
 
-View the closest match (or matches if using the radius extension).
+## File Structure
 
-Rules for POI Search
-Matches are case-insensitive.
+  NearMe-Java/
+  ├── src/
+  │   ├── GeoLocation.java        # Coordinates and distance calculation
+  │   ├── PointOfInterest.java    # Represents each POI
+  │   ├── PoiList.java            # Loads data and finds nearest matches
+  │   └── PoiFinder.java          # Main program and user interaction
+  ├── Output/                     # Screenshots or sample outputs
+  ├── places.txt                  # Dataset of points of interest
+  └── README.md                   # This file
+  
+## Example Usage
 
-Search matches name or tags of the POI.
+  Location [latitude,longitude], or empty for PLU campus: 47.609567,-122.34185
+  Search term(s): Sushi
 
-If multiple matches exist, the program returns the closest match.
+  Nearest match to [47.6096, -122.3419]
+  ----------------------------------------
+  Name:     Japonessa Sushi
+  Address:  1400 1st Ave, Seattle
+  Tags:     restaurant, sushi, japanese
+  Distance: 0.1688 miles
+  <!-- Replace with your screenshot -->
 
-If no match is found, an appropriate message is displayed.
+## Troubleshooting
+  - No POIs Found: Ensure places.txt is in the same directory and search terms are valid.
+  - Compilation Errors: Make sure all .java files are in src/ and JDK 21 is installed.
 
-File Structure
-bash
-Copy code
-NearMe-Java/
-├── src/
-│   ├── GeoLocation.java        # Coordinates and distance calculation
-│   ├── PointOfInterest.java    # Represents each POI
-│   ├── PoiList.java            # Loads data and finds nearest matches
-│   └── PoiFinder.java          # Main program and user interaction
-├── Output/                     # Screenshots or sample outputs
-├── places.txt                  # Dataset of points of interest
-└── README.md                   # This file
-Example Usage
-yaml
-Copy code
-Location [latitude,longitude], or empty for PLU campus: 47.609567,-122.34185
-Search term(s): Sushi
-
-Nearest match to [47.6096, -122.3419]
-----------------------------------------
-Name:     Japonessa Sushi
-Address:  1400 1st Ave, Seattle
-Tags:     restaurant, sushi, japanese
-Distance: 0.1688 miles
-<!-- Replace with your screenshot -->
-
-Troubleshooting
-No POIs Found: Ensure places.txt is in the same directory and search terms are valid.
-
-Compilation Errors: Make sure all .java files are in src/ and JDK 21 is installed.
-
-Screenshot Not Displayed: Confirm Output/output.png exists and the path is correct.
 
 Customization
 Update POIs: Replace contents of places.txt with your own dataset.
