@@ -24,19 +24,6 @@ Think of it as a **mini clone of Google Maps search**, but coded in Java.
 - ✅ **JUnit Testing** – Ensures methods work correctly with real test data.  
 - ➕ **Extension** (bonus): Search within a radius to get **multiple nearby matches**.
 
-📂 Project Structure
-NearMe-Java/
-├── src/
-│ ├── GeoLocation.java
-│ ├── PointOfInterest.java
-│ ├── PoiList.java
-│ └── PoiFinder.java
-├── test/
-│ ├── GeoLocationTests.java
-│ └── PoiTests.java
-├── places.txt # dataset of POIs
-└── README.md
-
 
 ## 🔧 Tech Stack
 - **Java 21**  
