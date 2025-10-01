@@ -30,7 +30,7 @@ NearMe-Java is a Java console application that helps users find the **nearest Po
 
 ### Steps
 
-1. Clone the project:
+  1. Clone the project:
 
 ```bash
 git clone https://github.com/Sanjina-Kumari/NearMe-Java.git
