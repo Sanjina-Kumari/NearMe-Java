@@ -34,7 +34,7 @@ Think of it as a **mini clone of Google Maps search**, but coded in Java.
 
 ## App Overview
 
-![Program Output] ([Screenshot 2025-10-01 003625.png](https://github.com/Sanjina-Kumari/NearMe-Java/blob/main/Output.png))
+![Program Output] (Output.png)
 
 ---
 
