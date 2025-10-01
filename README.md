@@ -72,15 +72,12 @@ NearMe-Java is a Java console application that helps users find the **nearest Po
 
 ## Developer
   Developed by Sanjina Kumari at Pacific Lutheran University.
+ 
   For questions or feedback, feel free to reach out at sanjinamandhwani1@gmail.com!
 
 ## 📜 Acknowledgements
 Project inspired by coursework in **CSCI 270 at Pacific Lutheran University**.  
+
 Starter dataset and UML guidance provided by faculty.  
 
 
-Modify Search: Add more tags or POI attributes in PointOfInterest.java.
-
-Author
-Developed by Sanjina Kumari at Pacific Lutheran University.
-For questions or feedback, feel free to reach out!
