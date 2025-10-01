@@ -55,40 +55,22 @@ NearMe-Java is a Java console application that helps users find the **nearest Po
 
 ## File Structure
 
-  NearMe-Java/
-  ├── src/
-  │   ├── GeoLocation.java        # Coordinates and distance calculation
-  │   ├── PointOfInterest.java    # Represents each POI
-  │   ├── PoiList.java            # Loads data and finds nearest matches
-  │   └── PoiFinder.java          # Main program and user interaction
-  ├── Output/                     # Screenshots or sample outputs
-  ├── places.txt                  # Dataset of points of interest
-  └── README.md                   # This file
+ 
   
 ## Example Usage
 
-  Location [latitude,longitude], or empty for PLU campus: 47.609567,-122.34185
-  Search term(s): Sushi
 
-  Nearest match to [47.6096, -122.3419]
-  ----------------------------------------
-  Name:     Japonessa Sushi
-  Address:  1400 1st Ave, Seattle
-  Tags:     restaurant, sushi, japanese
-  Distance: 0.1688 miles
-  <!-- Replace with your screenshot -->
 
 ## Troubleshooting
   - No POIs Found: Ensure places.txt is in the same directory and search terms are valid.
   - Compilation Errors: Make sure all .java files are in src/ and JDK 21 is installed.
 
 
-Customization
-Update POIs: Replace contents of places.txt with your own dataset.
+## Customization
+ Update POIs: Replace contents of places.txt with your own dataset.
+ Modify Search: Add more tags or POI attributes in PointOfInterest.java.
 
-Modify Search: Add more tags or POI attributes in PointOfInterest.java.
-
-Author
+## Author
 Developed by Sanjina Kumari at Pacific Lutheran University.
 For questions or feedback, feel free to reach out!
 
